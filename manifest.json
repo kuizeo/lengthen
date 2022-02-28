@@ -3,7 +3,7 @@
   "description": "Redirect YouTube Shorts URLs to normal YouTube",
   "version": "1.0",
   "manifest_version": 3,
-  "background": { "service_worker": "src/redirect.js" },
+  "background": { "service_worker": "/src/redirect.js" },
   "permissions": ["<all_urls>", "webRequest", "webRequestBlocking"],
   "action": {
     "default_icon": {
