@@ -1,0 +1,22 @@
+{
+  "name": "Lengthen",
+  "description": "Redirect YouTube Shorts URLs to normal YouTube",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": { "service_worker": "src/redirect.js" },
+  "permissions": ["<all_urls>", "webRequest", "webRequestBlocking"],
+  "action": {
+    "default_icon": {
+      "16":  "/img/icon16.png",
+      "32":  "/img/icon32.png",
+      "48":  "/img/icon48.png",
+      "128": "/img/icon128.png"
+    }
+  },
+  "icons": {
+    "16":  "/img/icon16.png",
+    "32":  "/img/icon32.png",
+    "48":  "/img/icon48.png",
+    "128": "/img/icon128.png"
+  }
+}
